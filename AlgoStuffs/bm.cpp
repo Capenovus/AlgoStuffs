@@ -1,8 +1,9 @@
+#pragma once
 #include "bm.h"
 
 using namespace std;
 
-vector<size_t> fastsearch(const string &text, const string &pattern)
+vector<size_t> bmh(const string &text, const string &pattern)
 {
 	size_t m = pattern.size();
 	size_t n = text.size();

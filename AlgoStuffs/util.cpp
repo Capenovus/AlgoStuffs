@@ -1,7 +1,8 @@
 #include "util.h"
 
+
 std::string readfile(std::string file, bool toHex) {
-    int length;
+    int length{};
     char* array{};
     std::string s;
 
@@ -19,10 +20,10 @@ std::string readfile(std::string file, bool toHex) {
         char const hex_chars[16] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F' };
         for (int i = 0; i < length; ++i)
         {
-            char const byte = array[i];
+            char const b = array[i];
 
-            s += hex_chars[(byte & 0xF0) >> 4];
-            s += hex_chars[(byte & 0x0F) >> 0];
+            s += hex_chars[(b & 0xF0) >> 4];
+            s += hex_chars[(b & 0x0F) >> 0];
         }
         return s;
     }

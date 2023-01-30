@@ -30,14 +30,17 @@
     <ClCompile Include="bm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="temp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="temp2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="acs.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="kmp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -45,6 +48,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="bm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="temp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="temp2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="acs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imports.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

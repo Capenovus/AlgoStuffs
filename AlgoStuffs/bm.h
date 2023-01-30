@@ -1,5 +1,4 @@
 #pragma once
-#include <iostream>
-#include <vector>
+#include "imports.h"
 
-std::vector<size_t> fastsearch(const std::string& text, const std::string& pattern);
+vector<size_t> bmh(const string& text, const string& pattern);

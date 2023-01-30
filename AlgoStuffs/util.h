@@ -1,9 +1,9 @@
 #pragma once
-#include <iostream>
-#include <fstream>
-#include <chrono>
+#include "imports.h"
 
 std::string readfile(std::string file, bool toHex = false);
+int supress_stdout();
+void resume_stdout(int fd);
 
 template <class DT = std::chrono::seconds,
     class ClockT = std::chrono::steady_clock>
