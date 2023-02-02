@@ -12,5 +12,6 @@
 #include <fstream>
 #include <io.h>
 #include <fcntl.h>
+#include "util.h"
 
 using namespace std;

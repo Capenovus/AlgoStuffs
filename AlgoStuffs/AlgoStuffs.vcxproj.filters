@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="acs.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -33,7 +30,10 @@
     <ClCompile Include="temp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="temp2.cpp">
+    <ClCompile Include="owo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="aho.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -53,13 +53,13 @@
     <ClInclude Include="temp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="temp2.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="acs.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="imports.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="owo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aho.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

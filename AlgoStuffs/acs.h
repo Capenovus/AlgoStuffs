@@ -8,7 +8,7 @@
 
 
 // FAULTY AND SLOW DNU
-std::vector<size_t> AcsFindFuzzyMatches(const std::string& pattern_with_wildcards, const std::string& text, char wildcard);
-std::vector<size_t> AcsFindFuzzyMatchesFromFile(const std::string& pattern_with_wildcards, const std::string& file, char wildcard);
-std::vector<size_t> AcsFindFuzzyHexMatches(std::string& pattern_with_wildcards, const std::string& text, char wildcard);
-std::vector<size_t> AcsFindFuzzyHexMatchesFromFile(std::string& pattern_with_wildcards, const std::string& file, char wildcard);
+namespace acs {
+	std::vector<std::pair<int, int>> search(const std::string& pattern, const std::string& text);
+	std::vector<std::pair<int, int>> search(const std::vector<std::string> &patterns, const std::string& text);
+}

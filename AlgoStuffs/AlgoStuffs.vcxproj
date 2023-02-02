@@ -135,11 +135,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="acs.cpp" />
+    <ClCompile Include="aho.cpp" />
     <ClCompile Include="bm.cpp" />
     <ClCompile Include="kmp.cpp" />
+    <ClCompile Include="owo.cpp" />
     <ClCompile Include="temp.cpp" />
-    <ClCompile Include="temp2.cpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="util.cpp" />
   </ItemGroup>
@@ -147,12 +147,12 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="acs.h" />
+    <ClInclude Include="aho.h" />
     <ClInclude Include="bm.h" />
     <ClInclude Include="imports.h" />
     <ClInclude Include="kmp.h" />
+    <ClInclude Include="owo.h" />
     <ClInclude Include="temp.h" />
-    <ClInclude Include="temp2.h" />
     <ClInclude Include="util.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
