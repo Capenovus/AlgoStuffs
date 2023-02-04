@@ -30,12 +30,15 @@
     <ClCompile Include="temp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+<<<<<<< Updated upstream
     <ClCompile Include="owo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="aho.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+=======
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -50,10 +53,14 @@
     <ClInclude Include="bm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+<<<<<<< Updated upstream
     <ClInclude Include="temp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="imports.h">
+=======
+    <ClInclude Include="temp2.h">
+>>>>>>> Stashed changes
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="owo.h">

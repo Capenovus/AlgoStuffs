@@ -151,8 +151,12 @@
     <ClInclude Include="bm.h" />
     <ClInclude Include="imports.h" />
     <ClInclude Include="kmp.h" />
+<<<<<<< Updated upstream
     <ClInclude Include="owo.h" />
     <ClInclude Include="temp.h" />
+=======
+    <ClInclude Include="temp2.h" />
+>>>>>>> Stashed changes
     <ClInclude Include="util.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
